@@ -1,0 +1,140 @@
+.comment-inner {
+  padding-bottom: 162px;
+}
+.comment-box {
+  max-width: 691px;
+  background: #F4F4F4;
+border-radius: 10px;
+padding: 34px 67px;
+}
+.comment-p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #01010D;
+margin-bottom: 32px;
+}
+.comment-bottom {
+  display: flex;
+  align-items: center;
+}
+.comment-mini-box-p {
+  font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 130%;
+color: #01010D;
+}
+.comment-mini-box-imgs {
+  margin-left: 120px;
+}
+.comment-mini-box-text {
+  font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #01010D;
+opacity: 0.7;
+}
+.comment-mini-box-img {
+  margin-left: 28px;
+}
+@media only screen and (max-width: 600px) {
+  .comment-inner {
+    padding-bottom: 82px;
+  }
+  .comment-box {
+    max-width: 491px;
+    background: #F4F4F4;
+  border-radius: 10px;
+  padding: 24px 27px;
+  }
+  .comment-p {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #01010D;
+  margin-bottom: 22px;
+  }
+  .comment-bottom {
+    display: flex;
+    align-items: center;
+  }
+  .comment-mini-box-p {
+    font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #01010D;
+  }
+  .comment-mini-box-imgs {
+    margin-left: 60px;
+  }
+  .comment-mini-box-text {
+    font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #01010D;
+  opacity: 0.7;
+  }
+  .comment-mini-box-img {
+    margin-left: 28px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .comment-inner {
+    padding-bottom: 62px;
+  }
+  .comment-box {
+    max-width: 491px;
+    background: #F4F4F4;
+  border-radius: 10px;
+  padding: 24px 27px;
+  }
+  .comment-p {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #01010D;
+  margin-bottom: 22px;
+  }
+  .comment-bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .comment-mini-box-p {
+    font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #01010D;
+  }
+  .comment-mini-box-imgs {
+    margin-left: 20px;
+  }
+  .comment-mini-box-text {
+    font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #01010D;
+  opacity: 0.7;
+  }
+  .comment-mini-box-img {
+    margin-left: 20px;
+  }
+}
